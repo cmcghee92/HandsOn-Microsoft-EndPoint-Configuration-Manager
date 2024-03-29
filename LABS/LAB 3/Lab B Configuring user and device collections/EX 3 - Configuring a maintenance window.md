@@ -31,3 +31,5 @@ Prepare for the next module.
 8. On the General tab, in the Comment box, type Maintenance Windows: 8 P.M. to 4 A.M.
 
 9. In the Toronto Windows 10 Workstations Properties dialog box, click OK.
+
+Results: At the end of this exercise, you should have created a maintenance window.
