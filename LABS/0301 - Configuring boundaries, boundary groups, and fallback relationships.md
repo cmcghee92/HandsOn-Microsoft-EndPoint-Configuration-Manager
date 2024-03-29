@@ -32,11 +32,11 @@ Task 1: Configure boundaries
 
     Note: Do not continue until you see the following boundaries created by the Active Directory Forest Discovery method:
 
-  Adatum HQ
-  
-  Sydney
-  
-  Toronto
+    Adatum HQ
+    
+    Sydney
+    
+    Toronto
 
 Task 2: Configure boundary groups and relationships
 
