@@ -1,4 +1,4 @@
-Task 1: Configure boundaries
+## Task 1: Configure boundaries
 
 1. Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
@@ -38,7 +38,7 @@ Task 1: Configure boundaries
     
     Toronto
 
-Task 2: Configure boundary groups and relationships
+## Task 2: Configure boundary groups and relationships
 
 1. Right-click Boundary Groups, and then click Create Boundary Group.
 
@@ -84,7 +84,7 @@ Task 2: Configure boundary groups and relationships
 
 22. Verify that Sydney now displays in the results pane.
 
-  Configure fallback
+ ### Configure fallback
 1. In the Administration workspace, click the Boundary Groups node.
 
 2. Right-click Sydney and then click Properties.
