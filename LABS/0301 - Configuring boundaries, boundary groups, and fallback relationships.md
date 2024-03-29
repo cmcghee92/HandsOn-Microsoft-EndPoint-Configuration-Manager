@@ -26,11 +26,11 @@ Task 1: Configure boundaries
 
 12. When you see the Do you want to run full discovery as soon as possible? message, click Yes.
 
-  Note: Before continuing, wait approximately one minute for the discovery to complete and for boundary objects to be created.
+    Note: Before continuing, wait approximately one minute for the discovery to complete and for boundary objects to be created.
 
 13. Click the Boundaries node, and then refresh the details pane. It might take a minute or two for the results to display.
 
-  Note: Do not continue until you see the following boundaries created by the Active Directory Forest Discovery method:
+    Note: Do not continue until you see the following boundaries created by the Active Directory Forest Discovery method:
 
   Adatum HQ
   
