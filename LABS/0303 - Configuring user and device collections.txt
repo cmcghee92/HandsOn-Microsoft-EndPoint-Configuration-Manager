@@ -1,4 +1,4 @@
-## Task 1: Create the Toronto Windows 11 Workstations collection
+[Task 1: Create the Toronto Windows 11 Workstations collection]
 If the Microsoft Endpoint Configuration Manager (Configuration Manager) console is not already open, on LON-CFG, on the taskbar, click the Configuration Manager Console icon in the Taskbar.
 
 In the Microsoft Endpoint Configuration Manager console, click the Assets and Compliance workspace, and then click the Device Collections node. Notice that several default collections that exist.
