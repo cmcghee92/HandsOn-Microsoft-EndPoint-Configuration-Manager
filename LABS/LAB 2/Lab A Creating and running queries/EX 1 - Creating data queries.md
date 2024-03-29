@@ -1,3 +1,5 @@
+# Exercise 1: Creating data queries
+
 Scenario
 
 You have been asked to publish applications based on the Marketing, Production, and Research departments at A. Datum Corporation. You must build and test queries to find the users by department so that you can use these queries to create collections.
@@ -5,81 +7,84 @@ You have been asked to publish applications based on the Marketing, Production, 
 The main tasks for this exercise are as follows:
 
 Create a query for Marketing users.
+
 Create a query for Sales or Research users.
+
 Run the user data queries.
-Task 1: Create a query for Marketing users
-Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
-On the taskbar, click the Configuration Manager console icon.
+## Task 1: Create a query for Marketing users
+1. Switch to **LON-CFG** and send the **CTRL+ALT+DEL** command and log in as **ADATUM\AdatumAdmin** with the password **Pa55w.rd**.
 
-Click the Monitoring workspace, and then click Queries.
+2. On the taskbar, click the **Configuration Manager** console icon.
 
-Right-click the Queries node, and then click Create Query.
+3. Click the **Monitoring** workspace, and then click Queries.
 
-In the Create Query Wizard, on the General page, in the Name box, type Marketing Users, and then click Import Query Statement.
+4. Right-click the **Queries** node, and then click **Create Query**.
 
-In the Browse Query dialog box, in the Queries box, click All Users, and then click OK.
+5. In the Create Query Wizard, on the General page, in the **Name** box, type **Marketing Users**, and then click **Import Query Statement**.
 
-In the Create Query Wizard, on the General page, click Edit Query Statement, and then click the Criteria tab.
+6. In the Browse Query dialog box, in the Queries box, click **All Users**, and then click **OK**.
 
-In the Marketing Users Query Statement Properties dialog box, click New
+7. In the Create Query Wizard, on the General page, click **Edit Query Statement**, and then click the **Criteria** tab.
 
-In the Criterion Properties dialog box, click Select.
+8. In the Marketing Users Query Statement Properties dialog box, click **New**
 
-In the Select Attribute dialog box, in the Attribute class drop-down list, click User Resource.
+9. In the Criterion Properties dialog box, click **Select**.
 
-In the Attribute drop-down list, click User Group Name, and then click OK.
+10. In the **Select Attribute **dialog box, in the Attribute class drop-down list, click **User Resource**.
 
-In the Criterion Properties dialog box, verify that in the Operator box, the is equal to option is selected.
+11. In the Attribute drop-down list, click **User Group Name**, and then click **OK**.
 
-In the Value box, use the Value button to browse to ADATUM\Marketing, and then click OK twice.
+12. In the Criterion Properties dialog box, verify that in the Operator box, the is equal to option is selected.
 
-In the Marketing Users Query Statement Properties dialog box, click OK.
+13. In the Value box, use the **Value button** to browse to **ADATUM\Marketing**, and then click **OK** twice.
 
-In the Create Query Wizard, on the General page, click Next.
+14. In the Marketing Users Query Statement Properties dialog box, click **OK**.
 
-On the Summary page, click Next, and then on the Completion page, click Close.
+15. In the Create Query Wizard, on the General page, click **Next**.
 
-Task 2: Create a query for Sales or Research users
-Right-click the Queries node, and then click Create Query.
+16. On the Summary page, click **Next**, and then on the Completion page, click **Close**.
 
-In the Create Query Wizard, on the General page, in the Name box, type Sales or Research Users, and then click Import Query Statement.
+## Task 2: Create a query for Sales or Research users
+1. Right-click the **Queries** node, and then click **Create Query**.
 
-In the Browse Query dialog box, in the Queries box, click All Users, and then click OK.
+2. In the Create Query Wizard, on the General page, in the **Name** box, type **Sales or Research Users**, and then click **Import Query Statement**.
 
-In the Create Query Wizard, on the General page, click Edit Query Statement, and then click the Criteria tab.
+3. In the Browse Query dialog box, in the Queries box, click **All Users**, and then click **OK**.
 
-In the Sales or Research Users Query Statement Properties dialog box, click New.
+4. In the Create Query Wizard, on the General page, click **Edit Query Statement**, and then click the **Criteria** tab.
 
-In the Criterion Properties dialog box, click the Criterion Type drop-down list, and then select List of values.
+5. In the Sales or Research Users Query Statement Properties dialog box, click **New**.
 
-Click Select.
+6. In the Criterion Properties dialog box, click the **Criterion Type** drop-down list, and then select **List of values**.
 
-In the Select Attribute dialog box, in the Attribute class list, click User Resource.
+7. Click **Select**.
 
-In the Attribute list, click User Group Name, and then click OK.
+8. In the Select Attribute dialog box, in the Attribute class list, click **User Resource**.
 
-In the Criterion Properties dialog box, verify that in the Operator box, the is in option is selected.
+9. In the Attribute list, click** User Group Name**, and then click **OK**.
 
-In the Value to add box, type ADATUM\Sales, and then click Add.
+10. In the Criterion Properties dialog box, verify that in the **Operator box**, the **is in** option is **selected**.
 
-In the Value to add box, type ADATUM\Research, click Add, and then click OK.
+11. In the Value to add box, type **ADATUM\Sales**, and then click **Add**.
 
-In the Sales or Research Users Query Statement Properties dialog box, click OK.
+12. In the Value to add box, type **ADATUM\Research**, click **Add**, and then click **OK**.
 
-In the Create Query Wizard, on the General page, click Next.
+13. In the Sales or Research Users Query Statement Properties dialog box, click **OK**.
 
-On the Summary page, click Next.
+14. In the Create Query Wizard, on the General page, click **Next**.
 
-On the Completion page, click Close.
+15. On the Summary page, click **Next**.
 
-Task 3: Run the user data queries
-Right-click the Marketing Users query, and then click Run.
+16. On the Completion page, click **Close**.
 
-Review the results, which should include 52 users.
+## Task 3: Run the user data queries
+1. **Right-click** the **Marketing Users** query, and then click **Run**.
 
-Click the Queries node, right-click the Sales or Research Users query, and then click Run.
+2. Review the results, which should include 52 users.
 
-Review the results, which should include 80 users.
+3. Click the Queries node, **right-click** the **Sales or Research Users** query, and then click **Run**.
+
+4. Review the results, which should include 80 users.
 
 Results: After this exercise, you should have created and tested data queries in Configuration Manager.
