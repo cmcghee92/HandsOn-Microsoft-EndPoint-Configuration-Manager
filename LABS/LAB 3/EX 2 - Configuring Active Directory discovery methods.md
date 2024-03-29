@@ -1,4 +1,16 @@
-Task 1: Configure the Active Directory System Discovery method
+# Exercise 2: Configuring Active Directory discovery methods
+Scenario
+
+The Active Directory administrator informed you that a new OU named Toronto Clients has been created, and it contains all of the computers located in Toronto. You need to configure the appropriate discovery methods to discover all the computers and users in the Toronto location. User discovery also must include the Active Directory department attribute. You also need to use an appropriate discovery method to help you configure boundaries and boundary groups, which these new locations will use.
+
+The main tasks for this exercise are as follows:
+
+Configure the Active Directory System Discovery method.
+Configure the Active Directory User Discovery method.
+Examine the discovered resources.
+Prepare for the next lab.
+
+## Task 1: Configure the Active Directory System Discovery method
 1. Click the Administration workspace, expand Hierarchy Configuration, and then click Discovery Methods.
 
 2. In the results pane, double-click Active Directory System Discovery. Select the Enable Active Directory System Discovery check box.
