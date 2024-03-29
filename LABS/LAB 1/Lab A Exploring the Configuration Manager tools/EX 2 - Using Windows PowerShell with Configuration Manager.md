@@ -21,33 +21,40 @@ View Configuration Manager information.
 5. Review the commands, and close the Get-Command - Module ConfigurationManager | Out-Gridview dialog box.
 
 ## Task 2: View Configuration Manager information
-To view a list of devices, in the Windows PowerShell window, type the following command, and then press Enter:
+1. To view a list of devices, in the Windows PowerShell window, type the following command, and then press Enter:
 
-Get-CMDevice | ft Name, ADSiteName, SiteCode, DeviceOS
-To view a list of distribution points, in the Windows PowerShell window, type the following command, and then press Enter:
+2. ```Powershell
+   Get-CMDevice | ft Name, ADSiteName, SiteCode, DeviceOS
+   
+3. To view a list of distribution points, in the Windows PowerShell window, type the following command, and then press Enter:
 
-Get-CMDistributionpoint
-To view a list of management points, in the Windows PowerShell window, type the following command, and then press Enter:
+4. ```Powershell
+   Get-CMDistributionpoint
+5. To view a list of management points, in the Windows PowerShell window, type the following command, and then press Enter:
 
-Get-CMManagementPoint | ft NetworkOSPath, RoleName, SiteCode, RoleCount
-To view a list of packages, in the Windows PowerShell window, type the following command, and then press Enter:
+6. ```Powershell
+   Get-CMManagementPoint | ft NetworkOSPath, RoleName, SiteCode, RoleCount
+7. To view a list of packages, in the Windows PowerShell window, type the following command, and then press Enter:
+8. ```Powershell
+   Get-CMPackage | ft Name, Description, PkgSourcePath
+ 
+10. To view a list of applications, in the Windows PowerShell window, type the following command, and then press Enter:
+11. ```Powershell
+    Get-CMApplication | ft LocalizedDisplayName, SourceSite
 
-Get-CMPackage | ft Name, Description, PkgSourcePath
-To view a list of applications, in the Windows PowerShell window, type the following command, and then press Enter:
-
-Get-CMApplication | ft LocalizedDisplayName, SourceSite
-To view a list of sites, in the Windows PowerShell window, type the following command, and then press Enter:
-
-Get-CMSite | ft SiteName, SiteCode, ServerName
-To view a list of users, in the Windows PowerShell window, type the following command, and then press Enter:
-
-Get-CMUser | ft Name, Domain
-To view a list of user collections, in the Windows PowerShell window, type the following command, and then press Enter:
-
-Get-CMUserCollection | ft Name, Comment, MemberCount
-To view a list of device collections, in the Windows PowerShell window, type the following command, and then press Enter:
-
-Get-CMDeviceCollection | ft Name, Comment, MemberCount
-Close the Administrator: Windows PowerShell window.
+12. To view a list of sites, in the Windows PowerShell window, type the following command, and then press Enter:
+13. ```PowerShell
+    Get-CMSite | ft SiteName, SiteCode, ServerName
+    
+14. To view a list of users, in the Windows PowerShell window, type the following command, and then press Enter:
+15. ```PowerShell
+    Get-CMUser | ft Name, Domain    
+16. To view a list of user collections, in the Windows PowerShell window, type the following command, and then press Enter:
+17. ```PowerShell
+    Get-CMUserCollection | ft Name, Comment, MemberCount   
+18. To view a list of device collections, in the Windows PowerShell window, type the following command, and then press Enter:
+19. ```PowerShell
+    Get-CMDeviceCollection | ft Name, Comment, MemberCount
+20. Close the Administrator: Windows PowerShell window.
 
 Results: At the end of this exercise, you will have used Windows PowerShell to determine information about Configuration Manager devices, distribution and management points, packages, applications, sites, users, and user and device collections.
