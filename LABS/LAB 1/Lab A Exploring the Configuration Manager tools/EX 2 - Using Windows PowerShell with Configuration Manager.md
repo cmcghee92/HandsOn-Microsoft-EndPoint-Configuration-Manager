@@ -17,7 +17,7 @@ View Configuration Manager information.
 
 4. ```PowerShell
 Get-Command -Module ConfigurationManager | Out-Gridview
-```
+
 5. Review the commands, and close the Get-Command - Module ConfigurationManager | Out-Gridview dialog box.
 
 ## Task 2: View Configuration Manager information
