@@ -8,17 +8,17 @@ The main tasks for this exercise are as follows:
 
 View all commands related to Configuration Manager.
 View Configuration Manager information.
-Task 1: View all commands related to Configuration Manager
-In the Configuration Manager console, in the upper-left corner, click the Down Arrow, and then click Connect via Windows PowerShell.
+## Task 1: View all commands related to Configuration Manager
+1. In the Configuration Manager console, in the upper-left corner, click the Down Arrow, and then click Connect via Windows PowerShell.
 
-When prompted in the Windows PowerShell window, on the keyboard, press A, and then press Enter.
+2. When prompted in the Windows PowerShell window, on the keyboard, press A, and then press Enter.
 
-To view all of the cmdlets in the Configuration Manager module for Windows PowerShell, at the Windows PowerShell command prompt, type the following command, and then press Enter:
+3. To view all of the cmdlets in the Configuration Manager module for Windows PowerShell, at the Windows PowerShell command prompt, type the following command, and then press Enter:
 
-Get-Command -Module ConfigurationManager | Out-Gridview
-Review the commands, and close the Get-Command - Module ConfigurationManager | Out-Gridview dialog box.
+4. ```Get-Command -Module ConfigurationManager | Out-Gridview```
+5. Review the commands, and close the Get-Command - Module ConfigurationManager | Out-Gridview dialog box.
 
-Task 2: View Configuration Manager information
+## Task 2: View Configuration Manager information
 To view a list of devices, in the Windows PowerShell window, type the following command, and then press Enter:
 
 Get-CMDevice | ft Name, ADSiteName, SiteCode, DeviceOS
