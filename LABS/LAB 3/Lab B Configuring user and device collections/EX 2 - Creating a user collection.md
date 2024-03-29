@@ -1,7 +1,8 @@
 # Exercise 2: Creating a user collection
     Scenario
     
-    You must create a user collection that contains all of the IT Staff. For your new collection, you decide to create an include collections rule to include the members of the IT OU.
+    You must create a user collection that contains all of the IT Staff. 
+    For your new collection, you decide to create an include collections rule to include the members of the IT OU.
     
     The main task for this exercise is as follows:
     
