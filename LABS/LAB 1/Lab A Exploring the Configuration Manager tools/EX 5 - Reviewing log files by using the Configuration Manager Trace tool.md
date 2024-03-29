@@ -7,40 +7,42 @@ All the Configuration Manager components generate logs files in a standard text 
 The main task for this exercise is as follows:
 
 Use the Configuration Manager Trace Log tool.
-Prepare for the next module.
-Task 1: Use the Configuration Manager Trace Log tool
-On the taskbar, click the File Explorer icon.
 
-Navigate to the C:\Program Files\Microsoft Configuration Manager\tools folder.
 
-Right-click cmtrace.exe, and click Pin to Taskbar.
+## Task 1: Use the Configuration Manager Trace Log tool
+1. On the taskbar, click the File Explorer icon.
 
-On the taskbar, click the Configuration Manager Trace Log Tool icon.
+2. Navigate to the C:\Program Files\Microsoft Configuration Manager\tools folder.
 
-In the Configuration Manager Trace Log Tool, click File, and then click Open.
+3. Right-click cmtrace.exe, and click Pin to Taskbar.
 
-Scroll down, click the Policypv.log file, and then click Open.
+4. On the taskbar, click the Configuration Manager Trace Log Tool icon.
 
-Click Tools, and click Highlight. In the Highlight text box, type 5104, and then click OK.
+5. In the Configuration Manager Trace Log Tool, click File, and then click Open.
 
-Click Tools, and click Find. In the Find text box, type the Process ID that you recorded earlier, and then click Find.
+6. Scroll down, click the Policypv.log file, and then click Open.
 
-To find the next entry, press the F3 key, and repeat until there are no more new responses.
+7. Click Tools, and click Highlight. In the Highlight text box, type 5104, and then click OK.
 
-Scroll up until you see the previous highlighted entry. Note the number of entries between the two milestones.
+8. Click Tools, and click Find. In the Find text box, type the Process ID that you recorded earlier, and then click Find.
 
-Question: How does the number of events between milestones compare to the number of events shown in the status message viewer?
+9. To find the next entry, press the F3 key, and repeat until there are no more new responses.
 
-Answer: Typically, there are more entries in the log file than in the status message viewer.
+10. Scroll up until you see the previous highlighted entry. Note the number of entries between the two milestones.
 
-Click Tools, and click Filter.
+    ```
+    Question: How does the number of events between milestones compare to the number of events shown in the status message viewer? 
 
-In the Filter Settings dialog box, select the Filter when the Entry Text check box.
+    Answer: Typically, there are more entries in the log file than in the status message viewer.
 
-In the Filter when the Entry Text drop-down list box, click contains.
+11. Click Tools, and click Filter.
 
-In the text box next to the Filter when the Entry Text drop-down list box, type the Process ID that you recorded earlier, and then click OK.
+12. In the Filter Settings dialog box, select the Filter when the Entry Text check box.
 
-Close the Configuration Manager Trace Log tool.
+13. In the Filter when the Entry Text drop-down list box, click contains.
+
+14. In the text box next to the Filter when the Entry Text drop-down list box, type the Process ID that you recorded earlier, and then click OK.
+
+15. Close the Configuration Manager Trace Log tool.
 
 Results: At the end of this exercise, you should have used the Configuration Manager Trace Log tool to review a component log file.
