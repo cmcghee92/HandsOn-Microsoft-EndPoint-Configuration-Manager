@@ -1,9 +1,9 @@
 Task 1: Configure the Active Directory System Discovery method
-Click the Administration workspace, expand Hierarchy Configuration, and then click Discovery Methods.
+1. Click the Administration workspace, expand Hierarchy Configuration, and then click Discovery Methods.
 
-In the results pane, double-click Active Directory System Discovery. Select the Enable Active Directory System Discovery check box.
+2. In the results pane, double-click Active Directory System Discovery. Select the Enable Active Directory System Discovery check box.
 
-Click New.
+3. Click New.
 
 In the Active Directory Container dialog box, click Browse.
 
