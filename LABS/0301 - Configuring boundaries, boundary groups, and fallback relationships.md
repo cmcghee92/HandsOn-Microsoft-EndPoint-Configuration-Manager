@@ -84,7 +84,7 @@
 
 22. Verify that Sydney now displays in the results pane.
 
- ### Configure fallback
+ ## Task 3: Configure fallback
 1. In the Administration workspace, click the Boundary Groups node.
 
 2. Right-click Sydney and then click Properties.
