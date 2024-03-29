@@ -15,7 +15,9 @@ View Configuration Manager information.
 
 3. To view all of the cmdlets in the Configuration Manager module for Windows PowerShell, at the Windows PowerShell command prompt, type the following command, and then press Enter:
 
-4. ```Get-Command -Module ConfigurationManager | Out-Gridview```
+4. ```PowerShell
+Get-Command -Module ConfigurationManager | Out-Gridview
+```
 5. Review the commands, and close the Get-Command - Module ConfigurationManager | Out-Gridview dialog box.
 
 ## Task 2: View Configuration Manager information
