@@ -6,6 +6,7 @@ Your manager has asked you to incorporate new locations into the Configuration M
 The main tasks for this exercise are as follows:
 
 Configure boundaries.
+
 Configure boundary groups and relationships.
 
 ## Task 1: Configure boundaries
