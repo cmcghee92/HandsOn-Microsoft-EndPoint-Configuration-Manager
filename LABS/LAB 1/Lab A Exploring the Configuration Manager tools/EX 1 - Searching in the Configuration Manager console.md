@@ -11,101 +11,104 @@ Using search criteria.
 Create and save a local node search.
 Create and save a global search.
 Use saved searches.
-Task 1: Using console filters
-Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
-On the taskbar, click the Configuration Manager console icon.
+# Task 1: Using console filters
+1. Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
-In the Configuration Manager console, in the Assets and Compliance workspace, click the Users node.
+2. On the taskbar, click the Configuration Manager console icon.
 
-Note: At the top of the results pane, the Users indicator shows that there are 282 items in the results pane.
+3. In the Configuration Manager console, in the Assets and Compliance workspace, click the Users node.
 
-In the search bar, type ch, and then click Search.
+    Note: At the top of the results pane, the Users indicator shows that there are 282 items in the results pane.
 
-The Users indicator shows that there are 26 items.
+4. In the search bar, type ch, and then click Search.
 
-Task 2: Using search criteria
-Click the Devices node.
+5. he Users indicator shows that there are 26 items.
 
-Note: At the top of the results pane, the Devices indicator shows that 8 items are in the results pane.
+# Task 2: Using search criteria
+1. Click the Devices node.
 
-Click the Add Criteria link. Note the available criteria for devices.
+    Note: At the top of the results pane, the Devices indicator shows that 8 items are in the results pane.
 
-Click Name.
+2. Click the Add Criteria link. Note the available criteria for devices.
 
-In the AND Name row, in the Enter valid characters text box, type LON, and then click Search.
+3. Click Name.
 
-Verify that the Devices indicator now shows that there are 7 items.
+4. In the AND Name row, in the Enter valid characters text box, type LON, and then click Search.
 
-Click the Add Criteria link.
+5. Verify that the Devices indicator now shows that there are 7 items.
 
-Scroll down, then click Operating System.
+6. Click the Add Criteria link.
 
-In the AND Operating System row, in the Enter valid characters text box,type Server, and then click Search.
+7. Scroll down, then click Operating System.
 
-Note: Note that the results contain four servers LON-DC1, LON-SVR1, LON-SVR2, and LON-CFG.
+8. In the AND Operating System row, in the Enter valid characters text box,type Server, and then click Search.
 
-In the AND Operating System row, delete Server, and in the Enter valid characters text box, type Windows, and then click Search.
+    Note: Note that the results contain four servers LON-DC1, LON-SVR1, LON-SVR2, and LON-CFG.
 
-Note: The results show that all the LON computers run a Windows operating system.
+9. In the AND Operating System row, delete Server, and in the Enter valid characters text box, type Windows, and then click Search.
 
-Task 3: Create and save a local node search
-In the Configuration Manager console, click the Assets and Compliance workspace.
+    Note: The results show that all the LON computers run a Windows operating system.
 
-Click User Collections.
+# Task 3: Create and save a local node search
 
-Double-click All Users. This runs a local node search automatically, and displays all the members of the collection.
+1. In the Configuration Manager console, click the Assets and Compliance workspace.
 
-Next to the Search button, click Add Criteria, select the Name check box, and then click Add.
+2. Click User Collections.
 
-In the AND Name row, click contains, and then note the options available for refining the search.
+3. Double-click All Users. This runs a local node search automatically, and displays all the members of the collection.
 
-Click starts with, type Adatum\T in the Enter valid characters text box, and then click Search. The results are now limited to the Adatum users whose names begin with T.
+4. Next to the Search button, click Add Criteria, select the Name check box, and then click Add.
 
-On the ribbon, in the Save group, click Save Current Search.
+6. In the AND Name row, click contains, and then note the options available for refining the search.
 
-In the Configuration Manager dialog box, type T users, and then click OK.
+7. Click starts with, type Adatum\T in the Enter valid characters text box, and then click Search. The results are now limited to the Adatum users whose names begin with T.
 
-Task 4: Create and save a global search
-Select the Overview node, and on the ribbon, click All Objects.
+8. On the ribbon, in the Save group, click Save Current Search.
 
-In the Search text box, type Configuration Manager, and then click Search.
+9. In the Configuration Manager dialog box, type T users, and then click OK.
 
-Note: Notice the different Object Types and Workspaces that the search returns.
+# Task 4: Create and save a global search
 
-On the ribbon, in the Save group, click Save Current Search.
+1. Select the Overview node, and on the ribbon, click All Objects.
 
-In the Configuration Manager dialog box, in the Search name field, type Configuration Manager Objects, and then click OK.
+2. In the Search text box, type Configuration Manager, and then click Search.
 
-Close the Configuration Manager console.
+    Note: Notice the different Object Types and Workspaces that the search returns.
 
-Task 5: Use saved searches
-On the taskbar, click the Configuration Manager console icon.
+3. On the ribbon, in the Save group, click Save Current Search.
 
-Note: You should notice that the sticky nodes from your previous searches were closed when the console was closed.
+4. In the Configuration Manager dialog box, in the Search name field, type Configuration Manager Objects, and then click OK.
 
-On the ribbon, click Saved Searches. This displays a drop-down list of the saved searches categories.
+5. Close the Configuration Manager console.
 
-Note: The only available option is global searches: Manage Searches for All Objects.
+# Task 5: Use saved searches
+1. On the taskbar, click the Configuration Manager console icon.
 
-In the Configuration Manager console, click the Assets and Compliance workspace.
+    Note: You should notice that the sticky nodes from your previous searches were closed when the console was closed.
 
-Click the User Collections node.
+2. On the ribbon, click Saved Searches. This displays a drop-down list of the saved searches categories.
 
-Click Saved Searches, and click Manage Searches for Current Node. Note that no searches are available, and click Cancel.
+    Note: The only available option is global searches: Manage Searches for All Objects.
 
-Double-click the All Users collection.
+3. In the Configuration Manager console, click the Assets and Compliance workspace.
 
-On the ribbon, click the Home tab.
+4. Click the User Collections node.
 
-Click Saved Searches, and click Manage Searches for Current Node. Note that the T users search is available, and click Cancel.
+5. Click Saved Searches, and click Manage Searches for Current Node. Note that no searches are available, and click Cancel.
 
-Click the Device Collections node.
+6. Double-click the All Users collection.
 
-On the ribbon, click Saved Searches, and then click Manage Searches for All Objects.
+7. On the ribbon, click the Home tab.
 
-Click the Configuration Manager Objects search, and click OK.
+8. Click Saved Searches, and click Manage Searches for Current Node. Note that the T users search is available, and click Cancel.
 
-Note: This displays the same results as before.
+9. Click the Device Collections node.
+
+10. On the ribbon, click Saved Searches, and then click Manage Searches for All Objects.
+
+11. Click the Configuration Manager Objects search, and click OK.
+
+    Note: This displays the same results as before.
 
 Results: At the end of this exercise, you should have performed both local node and global searches. You also should have refined the local node search and saved the custom local node search for future use. Finally, you should have observed the differences between saving a global search and saving a local node search. You can view the expected results in the lab answer key.
