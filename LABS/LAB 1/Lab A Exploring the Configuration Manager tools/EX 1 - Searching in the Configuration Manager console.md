@@ -12,7 +12,7 @@ Create and save a local node search.
 Create and save a global search.
 Use saved searches.
 
-# Task 1: Using console filters
+## Task 1: Using console filters
 1. Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
 2. On the taskbar, click the Configuration Manager console icon.
@@ -25,7 +25,7 @@ Use saved searches.
 
 5. he Users indicator shows that there are 26 items.
 
-# Task 2: Using search criteria
+## Task 2: Using search criteria
 1. Click the Devices node.
 
     Note: At the top of the results pane, the Devices indicator shows that 8 items are in the results pane.
@@ -50,7 +50,7 @@ Use saved searches.
 
     Note: The results show that all the LON computers run a Windows operating system.
 
-# Task 3: Create and save a local node search
+## Task 3: Create and save a local node search
 
 1. In the Configuration Manager console, click the Assets and Compliance workspace.
 
@@ -68,7 +68,7 @@ Use saved searches.
 
 9. In the Configuration Manager dialog box, type T users, and then click OK.
 
-# Task 4: Create and save a global search
+## Task 4: Create and save a global search
 
 1. Select the Overview node, and on the ribbon, click All Objects.
 
@@ -82,7 +82,7 @@ Use saved searches.
 
 5. Close the Configuration Manager console.
 
-# Task 5: Use saved searches
+## Task 5: Use saved searches
 1. On the taskbar, click the Configuration Manager console icon.
 
     Note: You should notice that the sticky nodes from your previous searches were closed when the console was closed.
