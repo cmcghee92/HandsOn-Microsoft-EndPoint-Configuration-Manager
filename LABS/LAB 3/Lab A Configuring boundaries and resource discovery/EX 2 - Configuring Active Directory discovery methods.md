@@ -6,7 +6,9 @@ The Active Directory administrator informed you that a new OU named Toronto Clie
 The main tasks for this exercise are as follows:
 
 Configure the Active Directory System Discovery method.
+
 Configure the Active Directory User Discovery method.
+
 Examine the discovered resources.
 
 
