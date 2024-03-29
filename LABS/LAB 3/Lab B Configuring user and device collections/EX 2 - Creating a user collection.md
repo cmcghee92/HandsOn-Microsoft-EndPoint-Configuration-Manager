@@ -47,3 +47,5 @@
 20. With the User Collections node selected, in the results pane, double-click the IT Staff collection.
 
 21. Verify that only the 27 IT Staff are in the collection.
+
+Results: After this exercise, you should have created a user collection.
