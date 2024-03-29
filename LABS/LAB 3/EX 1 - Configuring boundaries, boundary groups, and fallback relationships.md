@@ -1,3 +1,13 @@
+# Exercise 1: Configuring boundaries, boundary groups, and fallback relationships
+Scenario
+
+Your manager has asked you to incorporate new locations into the Configuration Manager environment. Your current Configuration Manager configuration already contains a boundary group named London. This boundary group provides automatic site assignment requests for client workstations that are members of associated boundaries. This boundary group also has LON-CFG.Adatum.com configured as a site system server providing distribution point services. You must configure additional boundaries to represent the Toronto and Sydney locations. You need to associate these boundaries with an appropriate boundary group. The Toronto and Sydney locations will be used for automatic site assignment. The Sydney location will not contain any site system servers initially, but will be configured to use the London boundary group as a fallback for the distribution point site system.
+
+The main tasks for this exercise are as follows:
+
+Configure boundaries.
+Configure boundary groups and relationships.
+
 ## Task 1: Configure boundaries
 
 1. Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
