@@ -8,7 +8,7 @@ The main tasks for this exercise are as follows:
 Configure the Active Directory System Discovery method.
 Configure the Active Directory User Discovery method.
 Examine the discovered resources.
-Prepare for the next lab.
+
 
 ## Task 1: Configure the Active Directory System Discovery method
 1. Click the Administration workspace, expand Hierarchy Configuration, and then click Discovery Methods.
