@@ -1,100 +1,102 @@
 Task 1: Configure boundaries
-Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
-Right-click the network icon on the taskbar and select Open Network & Internet settings. Select Change adapter options. Disable and re-enable the network adapter. This ensures the network profile for the adatum.com domain is set correctly.
+1. Switch to LON-CFG and send the CTRL+ALT+DEL command and log in as ADATUM\AdatumAdmin with the password Pa55w.rd.
 
-Repeat the above step on LON-DC1.
+2. Right-click the network icon on the taskbar and select Open Network & Internet settings. Select Change adapter options. Disable and re-enable the network adapter. This ensures the network profile for the adatum.com domain is set correctly.
 
-On the taskbar, click the Configuration Manager console icon.
+3. Repeat the above step on LON-DC1.
 
-In the Microsoft Endpoint Configuration Manager console, click the Administration workspace, and then expand Hierarchy Configuration.
+4. On the taskbar, click the Configuration Manager console icon.
 
-Click Discovery Methods, and then click Active Directory Forest Discovery.
+5. In the Microsoft Endpoint Configuration Manager console, click the Administration workspace, and then expand Hierarchy Configuration.
 
-On the ribbon, click Properties.
+6. Click Discovery Methods, and then click Active Directory Forest Discovery.
 
-In the Active Directory Forest Discovery Properties dialog box, select the following check boxes:
+7. On the ribbon, click Properties.
 
-Enable Active Directory Forest Discovery
+8. In the Active Directory Forest Discovery Properties dialog box, select the following check boxes:
 
-Automatically create Active Directory site boundaries when they are discovered
+9. Enable Active Directory Forest Discovery
 
-Note: Do not select the Automatically create IP address range boundaries for IP subnets when they are discovered check box.
+10. Automatically create Active Directory site boundaries when they are discovered
 
-To close the Active Directory Forest Discovery Properties dialog box, click OK.
+  Note: Do not select the Automatically create IP address range boundaries for IP subnets when they are discovered check box.
 
-When you see the Do you want to run full discovery as soon as possible? message, click Yes.
+11. To close the Active Directory Forest Discovery Properties dialog box, click OK.
 
-Note: Before continuing, wait approximately one minute for the discovery to complete and for boundary objects to be created.
+12. When you see the Do you want to run full discovery as soon as possible? message, click Yes.
 
-Click the Boundaries node, and then refresh the details pane. It might take a minute or two for the results to display.
+  Note: Before continuing, wait approximately one minute for the discovery to complete and for boundary objects to be created.
 
-Note: Do not continue until you see the following boundaries created by the Active Directory Forest Discovery method:
+13. Click the Boundaries node, and then refresh the details pane. It might take a minute or two for the results to display.
 
-Adatum HQ
+  Note: Do not continue until you see the following boundaries created by the Active Directory Forest Discovery method:
 
-Sydney
-
-Toronto
+  Adatum HQ
+  
+  Sydney
+  
+  Toronto
 
 Task 2: Configure boundary groups and relationships
-Right-click Boundary Groups, and then click Create Boundary Group.
 
-In the Name box, type London, and then click Add.
+1. Right-click Boundary Groups, and then click Create Boundary Group.
 
-In the Add Boundaries dialog box, select AdatumHQ, and then click OK.
+2. In the Name box, type London, and then click Add.
 
-In the Create Boundary Group dialog box, click the References tab, and then click Add.
+2. In the Add Boundaries dialog box, select AdatumHQ, and then click OK.
 
-In the Add Site Systems dialog box, select \\LON-CFG.Adatum.com, and then click OK.
+4. In the Create Boundary Group dialog box, click the References tab, and then click Add.
 
-Under Site assignment, select the check box next to Use this boundary group for site assignment.
+5. In the Add Site Systems dialog box, select \\LON-CFG.Adatum.com, and then click OK.
 
-To close the Create Boundary Group dialog box, click OK.
+6. Under Site assignment, select the check box next to Use this boundary group for site assignment.
 
-Right-click Boundary Groups, and then click Create Boundary Group.
+7. To close the Create Boundary Group dialog box, click OK.
 
-In the Name box, type Toronto, and then click Add.
+8. Right-click Boundary Groups, and then click Create Boundary Group.
 
-In the Add Boundaries dialog box, select Toronto, and then click OK.
+9. In the Name box, type Toronto, and then click Add.
 
-In the Create Boundary Group dialog box, click the References tab, and then click Add.
+10. In the Add Boundaries dialog box, select Toronto, and then click OK.
 
-In the Add Site Systems dialog box, select \\LON-CFG.Adatum.com, and then click OK.
+11. In the Create Boundary Group dialog box, click the References tab, and then click Add.
 
-Under Site assignment, select the check box next to Use this boundary group for site assignment.
+12. In the Add Site Systems dialog box, select \\LON-CFG.Adatum.com, and then click OK.
 
-To close the Create Boundary Group dialog box, click OK.
+13. Under Site assignment, select the check box next to Use this boundary group for site assignment.
 
-Verify that Toronto now displays in the results pane.
+14. To close the Create Boundary Group dialog box, click OK.
 
-Right-click Boundary Groups, and then click Create Boundary Group.
+15. Verify that Toronto now displays in the results pane.
 
-In the Name box, type Sydney, and then click Add.
+16. Right-click Boundary Groups, and then click Create Boundary Group.
 
-In the Add Boundaries dialog box, select Sydney, and then click OK.
+17. In the Name box, type Sydney, and then click Add.
 
-In the Create Boundary Group dialog box, click the References tab.
+18. In the Add Boundaries dialog box, select Sydney, and then click OK.
 
-Under Site assignment, select the check box next to Use this boundary group for site assignment.
+19. In the Create Boundary Group dialog box, click the References tab.
 
-To close the Create Boundary Group dialog box, click OK.
+20. Under Site assignment, select the check box next to Use this boundary group for site assignment.
 
-Verify that Sydney now displays in the results pane.
+21. To close the Create Boundary Group dialog box, click OK.
 
-Configure fallback
-In the Administration workspace, click the Boundary Groups node.
+22. Verify that Sydney now displays in the results pane.
 
-Right-click Sydney and then click Properties.
+  Configure fallback
+1. In the Administration workspace, click the Boundary Groups node.
 
-In the Sydney Properties dialog box, click the Relationships tab, and then click Add.
+2. Right-click Sydney and then click Properties.
 
-In the Fallback Boundary Groups dialog box, select London.
+3. In the Sydney Properties dialog box, click the Relationships tab, and then click Add.
 
-Under Fallback times (in minutes), change the Distribution point value to 10 minutes.
+4. In the Fallback Boundary Groups dialog box, select London.
 
-Click OK to close the Fallback Boundary Groups dialog box. This will ensure that if a client cannot find a distribution point within 10 minutes, it will fall back and use the Distribution point in London.
+5. Under Fallback times (in minutes), change the Distribution point value to 10 minutes.
 
-Click OK to close the Sydney Properties dialog box.
+6. Click OK to close the Fallback Boundary Groups dialog box. This will ensure that if a client cannot find a distribution point within 10 minutes, it will fall back and use the Distribution point in London.
 
-Results: After completing this exercise, you should have created and configured boundaries and boundary groups.
+7. Click OK to close the Sydney Properties dialog box.
+
+  Results: After completing this exercise, you should have created and configured boundaries and boundary groups.
