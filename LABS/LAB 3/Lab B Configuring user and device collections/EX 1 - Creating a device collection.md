@@ -43,7 +43,7 @@ Create the Toronto Windows 11 Workstations collection.
     
     Attribute: System OU Name
 
-15, In the Criterion Properties dialog box, ensure that the Operator value is set to is equal to, and then in the Value box, type ADATUM.COM/TORONTO CLIENTS
+15. In the Criterion Properties dialog box, ensure that the Operator value is set to is equal to, and then in the Value box, type ADATUM.COM/TORONTO CLIENTS
 
 16. To close the Criterion Properties dialog box, click OK.
 
