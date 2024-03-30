@@ -17,7 +17,7 @@ Test the reporting services point in the SQL Server Reporting Services website.
 1. On **LON-CFG**, click **Start**, expand **Microsoft SQL Server Reporting Services**, and then click **Reporting Services Configuration Manager**.
 
 2. In the Reporting Services Configuration Connection dialog box, click **Connect**.
-3. 
+3.  Wait for Connection 
 4. In Reporting Services Configuration Manager:**LON-CFG\SSRS**, click the** Service Account** node.
 
 5. Under Report Server Service Account, verify that the Virtual Service Account account is being used.
